@@ -1,0 +1,25 @@
+{
+  "name": "hugolify-theme-icons-simple-icons",
+  "version": "0.0.0",
+  "homepage": "https://www.hugolify.io",
+  "repository": "https://github.com/hugolify/hugolify-theme-icons-simple-icons",
+  "bugs": {
+    "url": "https://github.com/hugolify/hugolify-theme-icons-simple-icons/issues"
+  },
+  "author": {
+    "email": "sebousan@gmail.com",
+    "name": "Sébastien Moulène",
+    "url": "https://www.sebastienmoulene.com/"
+  },
+  "keywords": [
+    "hugolify",
+    "hugo",
+    "icon",
+    "simple-icons",
+    "brands"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@hugolify/prettier-config": "^0.3.1"
+  }
+}

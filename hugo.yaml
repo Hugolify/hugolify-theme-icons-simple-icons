@@ -1,0 +1,20 @@
+module:
+
+  mounts:
+    # Local assets take precedence over the imported Simple Icons below, so
+    # curated brands fill its gaps: linkedin, which Simple Icons removed on
+    # legal request in 2022. See README.
+    - source: assets
+      target: assets
+
+  imports:
+
+    # Simple Icons, the brands of hugolify-theme-icons: the engine imports this
+    # module, so a site gets it without listing it.
+    # Mounted to assets/icons/brands, where the engine resolves "brand:name"
+    # (the social menu prefixes its names with it).
+    - path: github.com/simple-icons/simple-icons
+      ignoreConfig: true
+      mounts:
+        - source: icons
+          target: assets/icons/brands
